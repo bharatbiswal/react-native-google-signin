@@ -21,5 +21,6 @@ Pod::Spec.new do |s|
 
   s.source_files  = "ios/RNGoogleSignin/*.{h,m}"
   s.dependency "React"
-  s.dependency "GoogleSignIn"
+  # Bharat: removing dependency on GoogleSignIn as it can be installed in iOS by Firebase SDK
+  # s.dependency "GoogleSignIn"
 end
